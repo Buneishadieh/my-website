@@ -94,16 +94,17 @@ body{
     background-color:#f2dcbb;
 }
 .about{
-    width:30%;
+    width:40%;
     padding:20px;
     margin:20px;
 }
 .about h2{
     color:green;
     text-decoration: underline;
+    text-align:center;
 }
 .projects{
-    width:30%;
+    width:40%;
     padding:20px;
     margin-left :50%;
     position:absolute;
@@ -112,6 +113,7 @@ body{
 .projects h2{
     color:green;
     text-decoration: underline;
+    text-align:center;
 }
 .education{
     width:30%;
@@ -123,4 +125,72 @@ body{
     text-decoration: underline;
     text-align:center;
 }
+.exprience{
+    width:30%;
+    padding:20px; 
+    margin:20px;
+    margin-left :50%;
+    position:absolute;
+    top:1050px;
+}
+.exprience h2{
+    color:green;
+    text-decoration: underline;
+    text-align: center;
     
+}
+.contacts{
+    padding:0;
+    margin:40px;
+    text-align:center;
+}
+.contacts h2{
+    color:green;
+    text-decoration: underline;
+    text-align:center;
+}
+.contacts li{
+    text-decoration:none;
+    list-style: none;
+}
+hr{
+    color:rgb(213, 224, 208);
+    border:2px solid;
+    margin-top:20px;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+  }
+  .footer{
+      text-align:center;
+  } 
+  .footer li a{
+      display:inline block;
+
+  } 
+  .footer li{
+      list-style-type:none;
+  }
