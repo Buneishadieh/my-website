@@ -106,10 +106,10 @@ body{
 }
 .projects{
     width:40%;
-    padding:20px;
+    padding:10px;
     margin-left :50%;
     position:absolute;
-    top:830px;
+    top:760px;
 }
 .projects h2{
     color:green;
