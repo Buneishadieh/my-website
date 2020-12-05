@@ -94,7 +94,33 @@ body{
     background-color:#f2dcbb;
 }
 .about{
-    width:
+    width:30%;
+    padding:20px;
+    margin:20px;
 }
-
+.about h2{
+    color:green;
+    text-decoration: underline;
+}
+.projects{
+    width:30%;
+    padding:20px;
+    margin-left :50%;
+    position:absolute;
+    top:830px;
+}
+.projects h2{
+    color:green;
+    text-decoration: underline;
+}
+.education{
+    width:30%;
+    padding:20px;
+    margin:20px;
+}
+.education h2{
+    color:green;
+    text-decoration: underline;
+    text-align:center;
+}
     
