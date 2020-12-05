@@ -25,8 +25,17 @@ body{
     width:450px;
     margin-left:10%;
     padding:20px 0px 20px 0px;
-    color:black;
-    
+    color:green;
+    text-decoration:none;
+    font-size :20px;
+    display: inline;
+
+}
+.description ul li a:hover{
+    color:rgb(8, 15, 109);
+    background-color: #16697a;
+    box-shadow: 0 0 10px rgba(138, 207, 228, 0.1),
+
 
 }
 .description li{
@@ -77,14 +86,6 @@ body{
 .img::after{
     content: "";
     clear: both;
-}
-.button{
-    color:black;
-    font-style: bold;
-    background-color:#bbbbbb
-    font-style:bold;
-    font-size:20px;
-
 }
 .main{
     width:auto;
@@ -145,7 +146,7 @@ body{
     text-align:center;
 }
 .contacts h2{
-    color:green;
+    color:white;
     text-decoration: underline;
     text-align:center;
 }
@@ -154,11 +155,10 @@ body{
     list-style: none;
 }
 hr{
-    color:rgb(213, 224, 208);
+    color:rgb(60, 70, 56);
     border:2px solid;
     margin-top:20px;
 }
-/* Style all font awesome icons */
 .fa {
     padding: 20px;
     font-size: 20px;
@@ -166,23 +166,12 @@ hr{
     text-align: center;
     text-decoration: none;
   }
-  
-  /* Add a hover effect if you want */
   .fa:hover {
     opacity: 0.7;
   }
-  
-  /* Set a specific color for each brand */
-  
-  /* Facebook */
   .fa-facebook {
     background: #3B5998;
     color: white;
-  }
-  
-  /* Twitter */
-  .fa-twitter {
-    background: #55ACEE;
   }
   .footer{
       text-align:center;
@@ -193,4 +182,8 @@ hr{
   } 
   .footer li{
       list-style-type:none;
+  }
+  .footr{
+      background-color:#534e52;
+
   }
