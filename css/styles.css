@@ -25,8 +25,17 @@ body{
     width:450px;
     margin-left:10%;
     padding:20px 0px 20px 0px;
-    color:black;
-    
+    color:green;
+    text-decoration:none;
+    font-size :20px;
+    display: inline;
+
+}
+.description ul li a:hover{
+    color:rgb(8, 15, 109);
+    background-color: #16697a;
+    box-shadow: 0 0 10px rgba(138, 207, 228, 0.1),
+
 
 }
 .description li{
@@ -78,14 +87,6 @@ body{
     content: "";
     clear: both;
 }
-.button{
-    color:black;
-    font-style: bold;
-    background-color:#bbbbbb
-    font-style:bold;
-    font-size:20px;
-
-}
 .main{
     width:auto;
     padding:0;
@@ -94,7 +95,95 @@ body{
     background-color:#f2dcbb;
 }
 .about{
-    width:
+    width:40%;
+    padding:20px;
+    margin:20px;
 }
-
+.about h2{
+    color:green;
+    text-decoration: underline;
+    text-align:center;
+}
+.projects{
+    width:40%;
+    padding:10px;
+    margin-left :50%;
+    position:absolute;
+    top:760px;
+}
+.projects h2{
+    color:green;
+    text-decoration: underline;
+    text-align:center;
+}
+.education{
+    width:30%;
+    padding:20px;
+    margin:20px;
+}
+.education h2{
+    color:green;
+    text-decoration: underline;
+    text-align:center;
+}
+.exprience{
+    width:30%;
+    padding:20px; 
+    margin:20px;
+    margin-left :50%;
+    position:absolute;
+    top:1050px;
+}
+.exprience h2{
+    color:green;
+    text-decoration: underline;
+    text-align: center;
     
+}
+.contacts{
+    padding:0;
+    margin:40px;
+    text-align:center;
+}
+.contacts h2{
+    color:white;
+    text-decoration: underline;
+    text-align:center;
+}
+.contacts li{
+    text-decoration:none;
+    list-style: none;
+}
+hr{
+    color:rgb(60, 70, 56);
+    border:2px solid;
+    margin-top:20px;
+}
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .footer{
+      text-align:center;
+  } 
+  .footer li a{
+      display:inline block;
+
+  } 
+  .footer li{
+      list-style-type:none;
+  }
+  .footr{
+      background-color:#534e52;
+
+  }
